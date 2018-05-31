@@ -133,6 +133,6 @@ class String
   end
 
   def to_glyph
-    [to_i(16)].pack("U")
+    [hex].pack("U")
   end
 end
